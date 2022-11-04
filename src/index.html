@@ -6,8 +6,28 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
+<style>
+  #preloadder{
+        background: rgb(0, 0, 0) url('https://www.kibrispdr.org/data/5/animasi-gif-loading-51.gif') no-repeat center ;
+        background-size: 50%;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+    }
+</style>
 <body>
+  <div id="preloadder">
+  </div>
   <app-root></app-root>
+  <script>
+    var loader=document.getElementById("preloadder")
+    window.addEventListener("load", function(){
+        loader.style.display="none"
+    })
+</script>
 </body>
 </html>

@@ -1,3 +1,11 @@
-<div>
-  Waiting...
+<div class="main-content" [class]="isNight ? 'light-mode':''">
+  <router-outlet></router-outlet>
+  <div class="controls">
+    <div *ngFor="let menu of menues" routerLinkActive="active-btn" class="control"  [routerLink]="menu.link" data-id="about" >
+        <i [class]="menu.icon"></i>
+    </div>
+</div>
+<div class="theme-btn" (click)="isNight= !isNight">
+    <i class="fas fa-adjust"></i>
+</div>
 </div>

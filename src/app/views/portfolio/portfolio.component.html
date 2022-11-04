@@ -1,0 +1,31 @@
+<section class="container active" id="portfolio">
+  <div class="main-title">
+      <h2>My <span>Portfolio</span><span class="bg-text">My Work</span></h2>
+  </div>
+  <p class="port-text">
+      Here is some of my work that I've done in various programming languages.
+  </p>
+  <div class="portfolios">
+      <div class="portfolio-item" *ngFor="let work of works">
+          <div class="image">
+              <img [src]="work.image" alt="">
+          </div>
+          <div class="hover-items">
+              <h3>{{ work.name }}</h3>
+              <span style="margin-bottom: 3px;">{{ work.languages }}</span>
+              <div class="icons">
+                  <a [href]="work.git" class="icon">
+                      <i class="fab fa-github"></i>
+                  </a>
+                  <a href="#" class="icon">
+                      <i class="fab fa-eye"></i>
+                  </a>
+                  <!-- <a href="#" class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </a> -->
+              </div>
+          </div>
+      </div>
+
+  </div>
+</section>
