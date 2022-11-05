@@ -13,7 +13,7 @@ export class AppComponent {
     { name: 'Home', icon:'fas fa-home', link:'/' },
     { name: 'About', icon:'fas fa-user', link:'/about' },
     { name: 'Portfolio', icon:'fas fa-briefcase', link:'/portfolio' },
-    { name: 'Achieve', icon:'fas fa-newspaper', link:'/acheive' },
+    // { name: 'Achieve', icon:'fas fa-newspaper', link:'/acheive' },
     { name: 'Contact', icon:'fas fa-envelope-open', link:'/contact' },
   ];
 

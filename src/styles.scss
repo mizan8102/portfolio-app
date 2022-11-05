@@ -129,6 +129,18 @@ section {
    display: inline;
    padding: 5px 20px;
 }
+
+.more_project{
+
+  background-color: var(--color-secondary);
+  color: var(--color-grey-1);
+  // box-shadow: 0 3px 15px rgba(0,0,0,.3);
+  border-radius: 5%;
+  padding: 5px 20px;
+  margin-top: 5px;
+  
+
+}
 .theme-btn {
     top: 5%;
     right: 3%;
@@ -336,6 +348,7 @@ section {
         transform: translateX(-50%);
     }
 }
+
 
 /*Timeline*/
 .timeline {
