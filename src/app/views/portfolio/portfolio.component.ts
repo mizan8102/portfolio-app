@@ -20,7 +20,7 @@ export class PortfolioComponent implements OnInit {
     // android project
 
     { name:'Learning App',subtitle:'C language learning app' ,catagory:'android' ,image:'../../../assets/img/project/work5.png', language:['Android','Java','Firebase','Sqlite' ] , git: "https://github.com/mizan8102/Cprograming"},
-    { name:'Virtual Talk Ai',subtitle:'Command based ai project' ,catagory:'android' ,image:'../../../assets/img/project/work4.jpg', language:['Android', 'Java'] , git: "https://github.com/mizan8102/apir_virtual_talk"},
+    { name:'Virtual Talk Ai',subtitle:'Command based ai project' ,catagory:'android' ,image:'../../../assets/img/project/work4.jpg', language:['Android', 'Java'] , git: "https://github.com/mizan8102/apir_virtual_talk" ,live:'https://youtu.be/le6DNN4PVaM'},
     { name:'E-commerce',subtitle:'e-commerce android apps' ,catagory:'android' ,image:'https://www.gstatic.com/devrel-devsite/prod/v0427f8a5788f798e3d6bd6e8789f9c1353ea9d7c80868d11a32bd9516fe63280/android/images/touchicon-180.png', language:['Android', 'Java','API'] , git: "https://github.com/mizan8102/onlineshop"},
     { name:'Audio Player',subtitle:'audio player android apps' ,catagory:'android' ,image:'https://www.gstatic.com/devrel-devsite/prod/v0427f8a5788f798e3d6bd6e8789f9c1353ea9d7c80868d11a32bd9516fe63280/android/images/touchicon-180.png', language:['Android', 'Java'] , git: "https://github.com/mizan8102/audio_player"},
     { name:'Covid Info',subtitle:'covid tracker android apps' ,catagory:'android' ,image:'https://www.gstatic.com/devrel-devsite/prod/v0427f8a5788f798e3d6bd6e8789f9c1353ea9d7c80868d11a32bd9516fe63280/android/images/touchicon-180.png', language:['Android', 'Java','Api'] , git: "https://github.com/mizan8102/covid19"},
